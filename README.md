@@ -11,3 +11,5 @@ Its just simple as maintaining notes.
 8) Now your data is stored in your local system
 9) so whenever you relaunch the website your old data will be preserved
 10) :)
+
+<img width="1900" height="921" alt="image" src="https://github.com/user-attachments/assets/87eb7269-faa8-4a57-8460-a33a4ec9e4e9" />
