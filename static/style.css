@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#heading-div {
+    background-color: rgb(43, 119, 206);
+    color: white;
+    width: 100%;
+    height: 9%;
+    border-radius: 10px;
+    top: 0px;
+}
+
+#heading{
+    position: absolute;
+    left: 20px;
+    font-size: xx-large;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:baseline;
+}
+
+.book-container{
+    background-color: rgba(117, 116, 116, 0.432);
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 0;
+    max-width: 23vw;
+    min-width: 15vw;
+    min-height: 10vh;
+    max-height: 40vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.book-container .btn{
+    margin-top: auto;
+}
+
+.book-container h2,
+.book-container h5{
+    color: rgb(34, 34, 34);
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    margin: 5px 0;
+}
+
+.book-container p{
+    color: rgb(2, 50, 182);
+    padding: 25px;
+    padding-left: 0;
+    margin-left: 0;
+    overflow-y: auto;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.btn{
+    background-color: rgb(43, 119, 206);
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: white;
+    border: 2px solid white;
+    margin: 2px;
+    margin-left: 0px;
+    bottom: 0px;
+}
+
+.add-btn{
+    background-color: rgb(43, 119, 206);
+    color: white;
+    font-size: 50px;
+    padding: 45px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    align-items: center; /* vertical center */
+    justify-content: center; /* horizontal center */
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.popup-box{
+    background-color: rgb(43, 119, 206);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 30vw;
+    max-height: 40vh;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.popup-box form{
+    width: 100%;
+    height: 100%;
+}
+
+#book-name{
+    border-bottom: 1px;
+}
+
+.popup-box label,
+.popup-box h2{
+    padding-left: 5px;
+}
+
+.popup-box input,
+.popup-box textarea,
+.popup-box select{
+    background: rgb(195, 195, 195, 0.432);
+    width: 98%;
+    height: 3vh;
+    border: 0;
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    box-sizing: border-box;
+}
+
